@@ -34,7 +34,7 @@ namespace Dapper_Demo
                 app.UseDeveloperExceptionPage();
             }
             app.AddCustomSwagger();
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
 
